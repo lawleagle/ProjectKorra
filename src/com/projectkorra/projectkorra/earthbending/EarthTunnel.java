@@ -124,7 +124,7 @@ public class EarthTunnel extends EarthAbility {
 						}
 					}
 				} else {
-					block.setType(Material.AIR);
+					block.breakNaturally();
 				}
 			}
 		}
